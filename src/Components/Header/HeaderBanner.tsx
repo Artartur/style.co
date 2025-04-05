@@ -7,8 +7,8 @@ export default function HeaderBanner() {
     <React.Fragment>
       {showBanner && (
         <div className="flex-center text-xs text-white bg-black h-[34px] md:text-sm xl:h-[38px]">
-          <div className="flex-center w-full md:justify-between md:w-[50%]">
-            <div className="flex-center space-x-1 xl:w-[80%]">
+          <div className="flex-center w-full md:justify-between xl:w-[69.5%] md:w-[89%]">
+            <div className="flex-center space-x-1 md:w-full">
               <p>Sign up and get 20% off to your first order.</p>
               <button type="button" className="cursor-pointer font-semibold underline underline-offset-4">Sign Up Now</button>
             </div>
