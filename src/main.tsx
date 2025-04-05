@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import Header from './Components/Header/Header.tsx'
-import HeaderBanner from './Components/Header/HeaderBanner.tsx'
+import Header from './components/header/Header.tsx'
+import HeaderBanner from './components/header/HeaderBanner.tsx'
 
 import './index.css'
 
