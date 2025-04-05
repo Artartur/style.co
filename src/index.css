@@ -2,7 +2,7 @@
 
 @layer {
     body {
-        @apply w-screen h-screen;
+        @apply h-screen w-screen bg-primary;
     }
 
     h1 {
@@ -24,4 +24,15 @@
     h5 {
         @apply text-sm;
     }
+}
+
+@layer components {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+}
+
+@theme {
+    --font-primary: "Satoshi", "sans-serif";
+    --color-primary: #F2F0F1;
 }
